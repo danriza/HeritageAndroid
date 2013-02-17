@@ -39,6 +39,13 @@ public class HomeActivity extends Activity {
 				setSearchType(SearchType.TYPE_BRANCH);
 			}
 		});
+		mSearchButton.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				MainTabActivity activity = (MainTabActivity) HomeActivity.this.getParent();
+				activity.getTabHost().setCurrentTab(1);
+				
+			}
+		});
 	}
 	
 	/**Initializes all views from the screen (buttons, texts ...) */

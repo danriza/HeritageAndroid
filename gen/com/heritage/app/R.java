@@ -41,6 +41,7 @@ public final class R {
         public static final int main=0x7f030004;
         public static final int main_tab=0x7f030005;
         public static final int mobile_banking_screen=0x7f030006;
+        public static final int splash_screen=0x7f030007;
     }
     public static final class string {
         public static final int BTN_ATM=0x7f040005;
