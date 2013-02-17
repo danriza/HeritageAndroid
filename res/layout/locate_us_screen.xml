@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+
+     <LinearLayout
+             android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:orientation="horizontal">
+            
+            <Button 
+                android:id="@+id/button_atm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity=""
+                android:text="@string/BTN_ATM"/>
+
+            <Button
+                android:id="@+id/button_branch"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/BTN_BRANCH" />
+            
+        </LinearLayout>
+        
+     <com.google.android.maps.MapView
+	    android:id="@+id/mapview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:clickable="true"
+	    android:apiKey="0ryLXSYpJXyUDqYqTjGci8aE89lG68FoSHAtdCg"
+		/>
+    
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="app_name">HeritageApp</string>
+    
+    <string name="BTN_LOGIN_MOBILE_BANKING">Login to Mobile Banking</string>
+    <string name="TXT_FIND_NEAREST">Find your nearest Branch or ATM</string>
+    <string name="TXT_EDITTEXT_POSTCODE_HINT">suburb or postcode</string>
+    <string name="BTN_ATM">ATM</string>
+    <string name="BTN_BRANCH">Branch</string>
+    <string name="TXT_YOUR_FEEDBACK">Your feedback</string>
+    <string name="TXT_FEEDBACK_DESCRIPTION">We value your feedback. Please fill out the form below</string>
+    <string name="TXT_EDITTEXT_NAME_HINT">Name</string>
+    <string name="TXT_EDITTEXT_EMAIL_HINT">Email</string>
+    <string name="TXT_EDITTEXT_COMMENTS_HINT">Comments</string>
+    <string name="BTN_SEARCH">Search</string>
+    <string name="BTN_SEND">Send</string>
+    <string name="BTN_CONTACT">Heritage Contact Center \n 11 22 33 </string>
+    <string name="BTN_HOME_TAB">Home</string>
+    <string name="BTN_LOCATE_US_TAB">Locate us</string>
+    <string name="BTN_MOBILE_BANKING_TAB">Mobile Banking</string>
+    <string name="BTN_FEEDBACK_TAB">Feedback</string>
+    <string name="BTN_CONTACT_TAB">Contact</string>
+    
+
+</resources>
